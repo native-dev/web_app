@@ -1,0 +1,33 @@
+
+#container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+	justify-content: center;
+}
+h1{
+	font-family: fantasy;
+	font-weight: 2em;
+	border-bottom: 4px solid green;
+	border-right: 4px solid green;
+	width: 400px;
+	text-align: center;
+	color: green;
+}
+img{
+	height: 300px;
+	width: 450px;
+	margin: 10px;
+	transition: all 1s;
+}
+img:hover{
+	transform: scale(1.1);
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	background: #9899;
+}
